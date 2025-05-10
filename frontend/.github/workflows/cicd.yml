@@ -5,9 +5,9 @@ on:
     branches: [Divinity-Vapes-Webpage]
 
 permissions:
+  contents: read
   pages: write
   id-token: write
-  contents: read
 
 jobs:
   build-and-deploy:
