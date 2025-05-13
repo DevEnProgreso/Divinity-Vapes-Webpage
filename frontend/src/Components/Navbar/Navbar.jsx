@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "../Assets/Logo.png";
 import cart_icon from "../Assets/cart_Icon.png";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [menu, setMenu] = useState("shop");
@@ -18,33 +19,49 @@ export const Navbar = () => {
             setMenu("shop");
           }}
         >
-          Shop{menu === "shop" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="/">
+            Shop
+          </Link>
+          {menu === "shop" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("disposables");
           }}
         >
-          Disposables{menu === "disposables" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="/disposables">
+            Disposables
+          </Link>
+          {menu === "disposables" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("eliquids");
           }}
         >
-          E-Liquids{menu === "eliquids" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="/eliquids">
+            E-Liquids
+          </Link>
+          {menu === "eliquids" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("vapekits");
           }}
         >
-          Vape Kits{menu === "vapekits" ? <hr /> : <></>}
+          <Link style={{ textDecoration: "none" }} to="/vapekits">
+            Vape Kits
+          </Link>
+          {menu === "vapekits" ? <hr /> : <></>}
         </li>
       </ul>
       <div className="nav-login-cart">
-        <button>Login</button>
-        <img src={cart_icon} alt="" className="cart_icon" />
+        <Link to="/login">
+          <button>Login</button>
+        </Link>
+        <Link to="/cart">
+          <img src={cart_icon} alt="" className="cart_icon" />
+        </Link>
         <div className="nav-cart-count">0</div>
       </div>
     </div>
