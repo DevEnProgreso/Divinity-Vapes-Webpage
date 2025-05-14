@@ -59,7 +59,7 @@ export const Navbar = () => {
         <Link to="/login">
           <button>Login</button>
         </Link>
-        <Link to="/cart">
+        <Link style={{ textDecoration: "none" }} to="/cart">
           <img src={cart_icon} alt="" className="cart_icon" />
         </Link>
         <div className="nav-cart-count">0</div>
