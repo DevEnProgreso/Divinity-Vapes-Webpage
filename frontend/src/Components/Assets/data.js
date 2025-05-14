@@ -2,7 +2,6 @@ import caliPineApple from "./caliPineAppleSplash.png";
 import iplayBerryWatermelon from "./iplayBerryWatermelon.png";
 import mikeTysonPineAppleMango from "./mikeTysonPineAppleMango.png";
 import nastyTangyAppleSplash from "./nastyTangyAppleSplash.png";
-import Popular from "../Popular/Popular";
 
 let data_product = [
   {
@@ -35,4 +34,4 @@ let data_product = [
   },
 ];
 
-export default Popular;
+export default data_product;
