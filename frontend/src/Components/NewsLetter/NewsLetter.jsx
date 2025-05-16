@@ -5,7 +5,7 @@ export const NewsLetter = () => {
   return (
     <div className="NewsLetter">
       <h1>Get Exclusive Offers On Your Email</h1>
-      <p>Suscribe to our newletter and stay updated</p>
+      <p>Suscribe and stay updated</p>
       <div>
         <input type="email" placeholder="Your Email id" />
         <button>Suscribe</button>
