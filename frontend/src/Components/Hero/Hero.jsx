@@ -15,7 +15,7 @@ export const Hero = () => {
             <img src={smokingEmoji} alt="" />
           </div>
           <p>have what</p>
-          <p>you want</p>
+          <p>you want!</p>
         </div>
         <div className="hero-latest-btn">
           <div>Check Our Stock!</div>
