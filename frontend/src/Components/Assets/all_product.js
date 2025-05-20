@@ -6,6 +6,9 @@ import tysonEliquidCherryCola from "./tysonEliquidCherryCola.png";
 import cloudNurdzPeachBlueRazz from "./cloudNurdzPeachBlueRazz.png";
 import tysonEliquidStrawberryBanana from "./tysonEliquidStrawberryBanana.png";
 import blankBarSaltStrawberryBliss from "./blankBarSaltStrawberryBliss.png";
+import geekVapeDigiMaxKit from "./geekVapeDigiMaxKit.png";
+import voopooDragx2Kit from "./voopooDragx2Kit.png";
+import SmokgPriv4Kit from "./SmokgPriv4Kit.png";
 
 let all_product = [
   {
@@ -14,6 +17,7 @@ let all_product = [
     image: caliPineApple,
     new_price: "$420",
     old_price: "$500",
+    category: "disposable",
   },
   {
     id: 2,
@@ -21,6 +25,7 @@ let all_product = [
     image: iplayBerryWatermelon,
     new_price: "$250",
     old_price: "$350",
+    category: "disposable",
   },
   {
     id: 3,
@@ -28,6 +33,7 @@ let all_product = [
     image: bananaNutTyson,
     new_price: "$450",
     old_price: "$500",
+    category: "disposable",
   },
   {
     id: 4,
@@ -35,6 +41,7 @@ let all_product = [
     image: nastyTangyAppleSplash,
     new_price: "$500",
     old_price: "$600",
+    category: "disposable",
   },
   {
     id: 5,
@@ -42,6 +49,7 @@ let all_product = [
     image: tysonEliquidCherryCola,
     new_price: "$350",
     old_price: "$500",
+    category: "eliquid",
   },
   {
     id: 6,
@@ -49,6 +57,7 @@ let all_product = [
     image: cloudNurdzPeachBlueRazz,
     new_price: "$320",
     old_price: "$500",
+    category: "eliquid",
   },
   {
     id: 7,
@@ -56,6 +65,7 @@ let all_product = [
     image: tysonEliquidStrawberryBanana,
     new_price: "$350",
     old_price: "$500",
+    category: "eliquid",
   },
   {
     id: 8,
@@ -63,6 +73,31 @@ let all_product = [
     image: blankBarSaltStrawberryBliss,
     new_price: "$350",
     old_price: "$500",
+    category: "eliquid",
+  },
+  {
+    id: 9,
+    name: "Geek Vape DigiMax Kit",
+    image: geekVapeDigiMaxKit,
+    new_price: "$1,200",
+    old_price: "$1,500",
+    category: "vapeskit",
+  },
+  {
+    id: 10,
+    name: "Voopoo Drag X2 Kit",
+    image: voopooDragx2Kit,
+    new_price: "$1,100",
+    old_price: "$1,500",
+    category: "vapeskit",
+  },
+  {
+    id: 11,
+    name: "Smok - G-Priv 4 Kit",
+    image: SmokgPriv4Kit,
+    new_price: "$2,000",
+    old_price: "$2,500",
+    category: "vapeskit",
   },
 ];
 
