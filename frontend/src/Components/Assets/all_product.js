@@ -9,6 +9,11 @@ import blankBarSaltStrawberryBliss from "./blankBarSaltStrawberryBliss.png";
 import geekVapeDigiMaxKit from "./geekVapeDigiMaxKit.png";
 import voopooDragx2Kit from "./voopooDragx2Kit.png";
 import SmokgPriv4Kit from "./SmokgPriv4Kit.png";
+import vaporessoArmourGsKit from "./vaporessoArmourGsKit.png";
+import chrisBrown from "./chrisBrownDesechable.png";
+import cali from "./caliBlackSeriesDesechable.png";
+import nexaUltra from "./nexaUltra.png";
+import geekBar from "./geekBarPulseX.png";
 
 let all_product = [
   {
@@ -98,6 +103,46 @@ let all_product = [
     new_price: "$2,000",
     old_price: "$2,500",
     category: "vapeskit",
+  },
+  {
+    id: 12,
+    name: "VAPORESSO Armour GS KIT",
+    image: vaporessoArmourGsKit,
+    new_price: "$1,400",
+    old_price: "$2,000",
+    category: "vapeskit",
+  },
+  {
+    id: 13,
+    name: "Chris Brown BlueRazz 15,000 Hits",
+    image: chrisBrown,
+    new_price: "$290",
+    old_price: "$500",
+    category: "disposable",
+  },
+  {
+    id: 14,
+    name: "Cali UL20000 Blue Blast 20,000 Hits",
+    image: cali,
+    new_price: "$550",
+    old_price: "$800",
+    category: "disposable",
+  },
+  {
+    id: 15,
+    name: "Nexa Ultra B-Pop Desechable 50,000 Hits",
+    image: nexaUltra,
+    new_price: "$650",
+    old_price: "$900",
+    category: "disposable",
+  },
+  {
+    id: 16,
+    name: "Geek Bar Pulse X Blue Rancher 25000 hits",
+    image: geekBar,
+    new_price: "$600",
+    old_price: "$800",
+    category: "disposable",
   },
 ];
 

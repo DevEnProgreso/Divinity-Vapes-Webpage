@@ -8,13 +8,19 @@ export const ShopCategory = (props) => {
   const { all_product } = useContext(ShopContext);
   return (
     <div className="shop-category">
-      <img src={props.banner} height="600" width="1950" alt="" />
+      <img
+        className="shopcategory-banner"
+        src={props.banner}
+        height="600"
+        width="1950"
+        alt=""
+      />
       <div className="shopcategory-indexSort">
         <p>
           <span>Showing 1-12</span> out of 36 products
         </p>
         <div className="shopcategory-sort">
-          Sort by <img src={dropDown_icon} height="30" width="30" alt="" />
+          Sort by <img src={dropDown_icon} height="25" width="25" alt="" />
         </div>
       </div>
       <div className="shopcategory-products">
