@@ -20,7 +20,7 @@ export const ShopCategory = (props) => {
           <span>Showing 1-12</span> out of 36 products
         </p>
         <div className="shopcategory-sort">
-          Sort by <img src={dropDown_icon} height="25" width="25" alt="" />
+          Sort by <img src={dropDown_icon} height="20" width="20" alt="" />
         </div>
       </div>
       <div className="shopcategory-products">
@@ -41,6 +41,7 @@ export const ShopCategory = (props) => {
           }
         })}
       </div>
+      <div className="shopcategory-loadmore">Explore More</div>
     </div>
   );
 };
