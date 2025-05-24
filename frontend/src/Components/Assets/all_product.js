@@ -26,7 +26,7 @@ import vaporessoEcoNano from "./vaporessoEcoNano.png";
 let all_product = [
   {
     id: 1,
-    name: "Cali PineApple Splash 8,500 Hits",
+    name: "Cali PineApple Splash",
     image: caliPineApple,
     new_price: "$420",
     old_price: "$500",
@@ -34,7 +34,7 @@ let all_product = [
   },
   {
     id: 2,
-    name: "Iplay Berry Watermelon 2,500 Hits",
+    name: "Iplay Berry Watermelon",
     image: iplayBerryWatermelon,
     new_price: "$250",
     old_price: "$350",
@@ -42,7 +42,7 @@ let all_product = [
   },
   {
     id: 3,
-    name: "Mike Tyson Banana-Nut 7,500 Hits",
+    name: "Mike Tyson Banana-Nut",
     image: bananaNutTyson,
     new_price: "$450",
     old_price: "$500",
@@ -50,7 +50,7 @@ let all_product = [
   },
   {
     id: 4,
-    name: "Nasty Tangy Apple Splash 8,500 Hits",
+    name: "Nasty Tangy Apple Splash",
     image: nastyTangyAppleSplash,
     new_price: "$500",
     old_price: "$600",
@@ -58,7 +58,7 @@ let all_product = [
   },
   {
     id: 5,
-    name: "Tyson E-liquid Cherry Cola 30ml",
+    name: "Tyson E-liquid Cherry Cola",
     image: tysonEliquidCherryCola,
     new_price: "$350",
     old_price: "$500",
@@ -66,7 +66,7 @@ let all_product = [
   },
   {
     id: 6,
-    name: "Cloud Nurdz Peach BlueRazz 30ml",
+    name: "Cloud Nurdz Peach BlueRazz",
     image: cloudNurdzPeachBlueRazz,
     new_price: "$320",
     old_price: "$500",
@@ -74,7 +74,7 @@ let all_product = [
   },
   {
     id: 7,
-    name: "Tyson E-liquid StrawberryBanana 30ml",
+    name: "Tyson E-liquid StrawberryBanana",
     image: tysonEliquidStrawberryBanana,
     new_price: "$350",
     old_price: "$500",
@@ -82,7 +82,7 @@ let all_product = [
   },
   {
     id: 8,
-    name: "Blank BarSalt StrawberryBliss 30ml",
+    name: "Blank BarSalt StrawberryBliss",
     image: blankBarSaltStrawberryBliss,
     new_price: "$350",
     old_price: "$500",
@@ -122,7 +122,7 @@ let all_product = [
   },
   {
     id: 13,
-    name: "Chris Brown BlueRazz 15,000 Hits",
+    name: "Chris Brown BlueRazz",
     image: chrisBrown,
     new_price: "$290",
     old_price: "$500",
@@ -130,7 +130,7 @@ let all_product = [
   },
   {
     id: 14,
-    name: "Cali UL20000 Blue Blast 20,000 Hits",
+    name: "Cali UL20000 Blue Blast",
     image: cali,
     new_price: "$550",
     old_price: "$800",
@@ -138,7 +138,7 @@ let all_product = [
   },
   {
     id: 15,
-    name: "Nexa Ultra B-Pop Desechable 50,000 Hits",
+    name: "Nexa Ultra B-Pop Desechable",
     image: nexaUltra,
     new_price: "$650",
     old_price: "$900",
@@ -146,7 +146,7 @@ let all_product = [
   },
   {
     id: 16,
-    name: "Geek Bar Pulse X Blue Rancher 25000 hits",
+    name: "Geek Bar Pulse X Blue Rancher",
     image: geekBar,
     new_price: "$600",
     old_price: "$800",
@@ -154,7 +154,7 @@ let all_product = [
   },
   {
     id: 17,
-    name: "Nasty Salt Bad Blood 30ml",
+    name: "Nasty Salt Bad Blood",
     image: nastySalt,
     new_price: "$280",
     old_price: "$350",
@@ -162,7 +162,7 @@ let all_product = [
   },
   {
     id: 18,
-    name: "Cali Juice Salt Frozen Strawberry 30ml",
+    name: "Cali Juice Salt Frozen Strawberry",
     image: caliJuice,
     new_price: "$350",
     old_price: "$500",
@@ -170,7 +170,7 @@ let all_product = [
   },
   {
     id: 19,
-    name: "JAM Monster Apple Salt 30ml",
+    name: "JAM Monster Apple Salt",
     image: jamMonster,
     new_price: "$320",
     old_price: "$500",
@@ -178,7 +178,7 @@ let all_product = [
   },
   {
     id: 20,
-    name: "Juice Head Raspberry L Salt 30ml",
+    name: "Juice Head Raspberry L Salt",
     image: juiceHead,
     new_price: "$350",
     old_price: "$500",
