@@ -24,12 +24,11 @@ export const CartItems = () => {
               <div className="cartitems-format cartitems-format-main">
                 <img src={e.image} alt="" className="carticon-product-icon" />
                 <p>{e.name}</p>
-                <p>{e.new_price}</p>
+                <p>${e.new_price}</p>
                 <button className="cartitems-quantity">
                   {cartItems[e.id]}
                 </button>
-                <p>{cartItems[e.id] * e.new_price}</p>{" "}
-                {/* Necesitas quitar los "$" de todos los numeros */}
+                <p>${cartItems[e.id] * e.new_price}</p>{" "}
                 <img
                   height="24"
                   width="24"
